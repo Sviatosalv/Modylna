@@ -1,0 +1,139 @@
+.header{
+    background: rgba(39, 102, 196, 0.911);
+}
+.group0{
+    max-width: 2200px;
+    display: flex;
+    font-size: 48px;
+}
+.Logo{
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    left: 30px;
+    top: 0px;
+}
+.button_up{
+    width: 275px;
+    height: 80px;
+    right: 2px;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+    border:none;
+    background: #0f0a03;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.2s;
+    left: 800px;
+    top: 35px; 
+}
+.button_up:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 7px 0 rgb(198, 206, 197);
+}
+.button_up:active{
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 rgb(218, 223, 219)
+}
+.Header_1{
+    max-width: 10px;
+    margin: 0px auto 0px 0px
+    
+}
+.header_ul{
+    display: flex;
+    list-style-type:none;
+}
+.header_li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header_link{
+    text-decoration:none;
+       color: rgba(0, 0, 0, 0.747);
+}
+.Photo1{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    left: 1250px;
+    top: 333px;
+}
+/* Розпочати Button first */
+.Start1_b{
+    width: 275px;
+    height: 80px;
+    right: 2px;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+    border:none;
+    background: #0f0a03;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.2s;
+    left: 1200px;
+    top: 800px;   
+}
+.Start1_b:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 7px 0 rgb(198, 206, 197);
+}
+.Start1_b:active{
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 rgb(218, 223, 219)
+    /* Спробувати Button Second */
+}
+.Try1_b{
+    width: 275px;
+    height: 80px;
+    right: 2px;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+    border:none;
+    background: #0f0a03;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.2s;
+    left: 1500px;
+    top: 720px;   
+}
+.Try1_b:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 7px 0 rgb(198, 206, 197);
+}
+.Try1_b:active{
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 rgb(218, 223, 219)
+}
+.First_Text{
+    font-size: 50px;
+    position: absolute;
+    left: 1250px;
+    top: 200px;
+}
+.footer {
+    max-width:5000px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(228, 187, 5);
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 1000px;
+    left: -8px;
+  }
+  .header_ul_2{
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style-type:none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .Name{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
